@@ -30,7 +30,6 @@ body{
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-    min-height: 100vh;
     padding: 5rem 0;
 }
 .phone-container{
@@ -260,6 +259,29 @@ body{
     color: hsl(270, 7%, 64%);
     line-height: 1.5;
 }
+.footer{
+    padding: 0 5rem;
+    text-align: center;
+}
+.copyright{
+    font-size: 1.2rem;
+    color: hsl(270, 7%, 64%);
+    font-weight: 500;
+}
+.footer-link, .footer-link:link, .footer-link:visited{
+    font-size: inherit;
+    text-decoration: none;
+    background-image: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    transition: all 0.2s ease-in-out;
+}
+.footer-link:hover{
+    -webkit-transform: scale(1.35) rotate(5deg) skewX(-5deg);
+    transform: scale(1.35) rotate(5deg) skewX(-5deg);
+    text-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
 @media only screen and (min-width: 900px){
     html{
         font-size: 62.5%;
@@ -268,18 +290,11 @@ body{
         width: 50vw;
         height: 85vh;
         border-bottom-left-radius: 100rem;
-        left: 0;
-        top: 0;
-        z-index: -1;
         margin-left: -10rem;
     }
     .chat-app{
-        display: flex;
-        align-items: center;
         justify-content: center;
         flex-direction: row;
-        min-height: 100vh;
-        padding: 5rem 0;
     }
     .phone-container{
         flex-basis: 50%;
