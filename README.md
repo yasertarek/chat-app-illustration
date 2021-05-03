@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://yasertarek.github.io/chat-app-illustration/)
+- Solution URL: [FrontEnd Mentor Solution](https://www.frontendmentor.io/challenges/chat-app-css-illustration-O5auMkFqY/hub/css-chat-app-illustration-Ca7giU6pO)
+- Live Site URL: [Preview Site](https://yasertarek.github.io/chat-app-illustration/)
 
 ## My process
 
